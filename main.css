@@ -1,0 +1,93 @@
+     body   {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+          text-align: center;
+}
+    p {
+      font-size: 30px;
+        color: white;
+    }
+    input {
+      border: 0;
+      padding: 20px;
+      font-size: 20px;
+    }
+.btn {
+	border: none;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 20px 50px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+        .btn-2 {
+	background: #e74c3c;
+	color: #fff;
+	box-shadow: 0 6px #ab3c3c;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+        /* Button 2c */
+.btn-2c {
+	border-radius: 5px;
+}
+
+.btn-2c:hover {
+	box-shadow: 0 4px #ab3c3c;
+	top: 2px;
+}
+
+.btn-2c:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}
+    img {
+      padding: 40px 0px 0px 0px;
+    }
+        body {
+        	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  /* Location of the image */
+  background-image: url('https://images.unsplash.com/photo-1446080501695-8e929f879f2b?ixlib=rb-0.3.5&q=80&fm=jpg&s=9486c9d5373bd6a37a9d03ea3b63c565');
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
